@@ -218,8 +218,11 @@
                     <!-- PROFILE PICTURE START -->
                     <div class="col-md-5 hidden-xs hidden-sm match-height pp-wrapper">
                         <div class="profile-picture style-one">
-                            <img src="assets/images/profile-picture-1.jpg" alt="profile picture"
-                                class="img-responsive" />
+                            <picture>
+                                <source type="image/webp" srcset="/assets/images/profile-picture-1.webp" />
+                                <source type="image/jpg" srcset="/assets/images/profile-picture-1.jpg" />
+                                <img src="assets/images/profile-picture-1.jpg" alt="profile picture" class="img-responsive" />
+                            </picture>
                         </div>
                     </div>
                     <!-- //PROFILE PICTURE END -->
